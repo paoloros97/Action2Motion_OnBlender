@@ -109,21 +109,30 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- USAGE EXAMPLES -->
 ## Link Bones
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This is an example of how to link bones with Empty "Plain Axes".
 
-<img src="images/BonesEmpty.png" alt="Logo" width="500">
+First we need to make an Armature (in this example it's made of 2 bones only).
+Then we add a "Plain Axes" for each joint. The latters may be placed in the exact bones joints' coordinates.
 
-a
-<img src="images/CopyLocation.png" alt="Logo" width="500">
+<img src="images/BonesEmpty.PNG" alt="Logo" width="500">
 
-a
-<img src="images/AllConstr.png" alt="Logo" width="500">
+Now we select the Armature and move to the Pose Mode.
 
-a
-<img src="images/Move.png" alt="Logo" width="500">
+It's the moment to select and add constraints for each bone. In the following image you can see the constraints "Copy location" that move the selected head's bone to the definited Plain Axes' location.
 
-a
-_For more examples, please refer to the [Documentation](https://example.com)_
+<img src="images/CopyLocation.PNG" alt="Logo" width="500">
+
+There is not a straight-forward way to move the bone's tail with only one constraint. In order to make each tail following a certain Plain Axes we use two constrains: "Damped Track" and "Strech to". 
+
+The "Damped Track" constraint makes the tail point towards the definited Plain Axes object.
+Then, the "Strech to" stretches up to the definited Plain Axes object.
+
+<img src="images/AllConstr.PNG" alt="Logo" width="500">
+
+Now, from Object Mode, if we move a Plain Axes object, the linked Bone follows it.
+
+<img src="images/Move.PNG" alt="Logo" width="500">
+
 
 <!-- ROADMAP -->
 ## Roadmap
