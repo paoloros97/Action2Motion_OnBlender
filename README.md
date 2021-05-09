@@ -111,8 +111,18 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-<img src="images/screenshot.png" alt="Logo" width="500">
+<img src="images/BonesEmpty.png" alt="Logo" width="500">
 
+a
+<img src="images/CopyLocation.png" alt="Logo" width="500">
+
+a
+<img src="images/AllConstr.png" alt="Logo" width="500">
+
+a
+<img src="images/Move.png" alt="Logo" width="500">
+
+a
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
