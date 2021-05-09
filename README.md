@@ -7,10 +7,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="200">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Action2Motion: Conditioned Generation of 3D Human Motions On Blender</h3>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
@@ -34,9 +34,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
