@@ -6,7 +6,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <img src="images/logo.png" alt="Logo" width="200">
+  <img src="images/logo.svg" alt="Logo" width="200">
 
 
   <h3 align="center">Action2Motion: Conditioned Generation of 3D Human Motions On Blender</h3>
