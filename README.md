@@ -84,12 +84,11 @@ This is an example of how to list things you need to use the software and how to
 
 1. Download the .zip file from this repository
 2. Open Blender > Edit > Preferences > Add-ons > Install
-    <img src="images/logo.png" alt="Logo" width="200">
+    <p align="center"><img src="images/Install.png" alt="Logo" width="600"></p>
 
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
+3. Activate the checkbox
+   <p align="center"><img src="images/spunta.png" alt="Logo" width="550"></p>
+  It will take few minutes to install the Add-on due the library size that the Neural Network uses (at least 3Gb)
 4. Enter your API in `config.js`
    ```JS
    const API_KEY = 'ENTER YOUR API';
