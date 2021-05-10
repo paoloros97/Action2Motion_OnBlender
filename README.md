@@ -1,8 +1,3 @@
-[![Contribu][contributors-shield]][contributors-url]
-[![Issues][issues-shield]][issues-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
