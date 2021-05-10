@@ -85,14 +85,13 @@ This is an example of how to list things you need to use the software and how to
 1. Download the .zip file from this repository
 
 3. Open Blender > Edit > Preferences > Add-ons > Install
-    <p align="center"><img src="images/Install.png" alt="Logo" width="600"></p>
+   <p align="center"><img src="images/Install.png" alt="Logo" width="600"></p>
 
-3. Activate the checkbox. It will take few minutes to install the Add-on due the library size that the Neural Network uses (at least 3Gb)
+3. Activate the checkbox. It will take few minutes to install the Add-on due the libraries size that the Neural Network uses (at least 3Gb)
    <p align="center"><img src="images/spunta.png" alt="Logo" width="550"></p>
   
-  
 4. This is the panel that will appear
- <p align="center"><img src="images/panel.png" alt="Logo" width="300"></p>
+   <p align="center"><img src="images/panel.png" alt="Logo" width="300"></p>
 
 
 
@@ -112,24 +111,24 @@ This is an example of how to link bones with Empty "Plain Axes".
 First we need to make an Armature (in this example it's made of 2 bones only).
 Then we add a "Plain Axes" for each joint. The latters may be placed in the exact bones joints' coordinates.
 
-<img src="images/BonesEmpty.PNG" alt="Logo" width="500">
+ <p align="center"><img src="images/BonesEmpty.PNG" alt="Logo" width="500"></p>
 
 Now we select the Armature and move to the Pose Mode.
 
 It's the moment to select and add constraints for each bone. In the following image you can see the constraints "Copy location" that move the selected head's bone to the definited Plain Axes' location.
 
-<img src="images/CopyLocation.PNG" alt="Logo" width="500">
+ <p align="center"><img src="images/CopyLocation.PNG" alt="Logo" width="500"></p>
 
 There is not a straight-forward way to move the bone's tail with only one constraint. In order to make each tail following a certain Plain Axes we use two constrains: "Damped Track" and "Strech to". 
 
 The "Damped Track" constraint makes the tail point towards the definited Plain Axes object.
 Then, the "Strech to" stretches up to the definited Plain Axes object.
 
-<img src="images/AllConstr.PNG" alt="Logo" width="500">
+ <p align="center"><img src="images/AllConstr.PNG" alt="Logo" width="500"></p>
 
 Now, from Object Mode, if we move a Plain Axes object, the linked Bone follows it.
 
-<img src="images/Move.PNG" alt="Logo" width="500">
+ <p align="center"><img src="images/Move.PNG" alt="Logo" width="300"></p>
 
 
 <!-- ROADMAP -->
