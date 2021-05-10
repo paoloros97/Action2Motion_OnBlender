@@ -106,7 +106,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- USAGE EXAMPLES -->
 ## Link Bones
 
-This is an example of how to link bones with Empty "Plain Axes".
+This is an example of how to link bones with Empty "Plain Axes". <a href="https://blender.stackexchange.com/questions/30835/convert-a-c3d-and-trc-files-to-bvh"> Source </a>
 
 First we need to make an Armature (in this example it's made of 2 bones only).
 Then we add a "Plain Axes" for each joint. The latters may be placed in the exact bones joints' coordinates.
