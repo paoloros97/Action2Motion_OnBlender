@@ -11,7 +11,7 @@
 
   <h3 align="center">Action2Motion: Conditioned Generation of 3D Human Motions On Blender</h3>
 
-<a align="center"> <img src="images/gifmaker.gif" width="400"> </a>
+<p align="center"> <img src="images/gifmaker.gif" width="400"> </p>
 </p>
 
 
