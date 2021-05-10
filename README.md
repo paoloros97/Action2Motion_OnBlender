@@ -82,11 +82,10 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
+1. Download the .zip file from this repository
+2. Open Blender > Edit > Preferences > Add-ons > Install
+    <img src="images/logo.png" alt="Logo" width="200">
+
 3. Install NPM packages
    ```sh
    npm install
