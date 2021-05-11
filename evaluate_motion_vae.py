@@ -20,7 +20,7 @@ def character_matrix(animation_n):
 	opt.save_root = os.path.join(opt.checkpoints_dir, opt.dataset_type, opt.name)
 	opt.model_path = os.path.join(opt.save_root, 'model')
 
-	model_file_path = os.path.dirname(os.path.dirname(__file__)) + '\\Action-to-motion-master\\checkpoints\\vae\\humanact12\\vanila_vae_tf\\model\\latest.tar'
+	model_file_path = os.path.dirname(os.path.dirname(__file__)) + '\\Action2Motion_OnBlender\\checkpoints\\vae\\humanact12\\vanila_vae_tf\\model\\latest.tar'
 
 	input_size = 72
 	joints_num = 24
