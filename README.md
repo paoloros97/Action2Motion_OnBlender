@@ -60,28 +60,20 @@ In order to install this Add-on, you need:
 
 * Administrator privileges
 * At least 3-4 Gbytes of space in your HD (<a href="https://pytorch.org/get-started/locally/">pytorch</a> weighs at least 3Gbyte)
-* <a href="https://www.blender.org/"> Blender </a>
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* <a href="https://www.blender.org/"> Blender </a> installed
 
 ### Installation
 
-1. Download the .zip file from this repository
+1. Download the .zip file from this repository. Please do not change the main folder name.
 
-3. Open Blender in administrator mode > Edit > Preferences > Add-ons > Install
+3. Open Blender in administrator mode > Edit > Preferences > Add-ons > Install. Browse the project zip file and load it.
    <p align="center"><img src="images/Install.png" alt="Logo" width="600"></p>
 
 3. Activate the checkbox. It will takes a few minutes to install the Add-on due the libraries size that the Neural Network uses (at least 3Gb)
    <p align="center"><img src="images/spunta.png" alt="Logo" width="550"></p>
   
-4. This is the panel that will appear
+4. This is the panel that will appear:
    <p align="center"><img src="images/panel.png" alt="Logo" width="300"></p>
-
-
 
 
 <!-- USAGE EXAMPLES -->
