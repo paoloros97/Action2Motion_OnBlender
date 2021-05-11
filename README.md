@@ -80,8 +80,28 @@ In order to install this Add-on, you need:
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. Open Blender and empty the whole scene.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+  <p align="center"><img src="images/empty.png" alt="Logo" width="500"></p>
+  
+2. Open the _Action2Motion_ panel and click the _Skeleton_ button.
+  
+  <p align="center"><img src="images/skeleton.png" alt="Logo" width="500"></p>
+  
+3. Paste your character onto the skeleton. If necessary adjust the bones inside the character in edit mode.
+
+  <p align="center"><img src="images/character.png" alt="Logo" width="500"></p>
+
+4. Push the _Parent_ button to link the _Armature_ with the character mesh.
+
+  <p align="center"><img src="images/parent.png" alt="Logo" width="500"></p>
+
+5. Choose a motion and click it. The neural network will generate the selected motion. 
+
+   <p align="center"><img src="images/movesk.png" alt="Logo" width="500"></p>
+   
+6. Push the _Play_ button to start the animation.
+
 
 <!-- USAGE EXAMPLES -->
 ## Link Bones
