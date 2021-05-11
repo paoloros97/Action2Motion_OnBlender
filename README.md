@@ -101,6 +101,7 @@ In order to install this Add-on, you need:
    
 6. Push the _Play_ button to start the animation.
 
+  <p align="center"><img src="images/gifmaker.gif" width="600"> </p>
 
 <!-- USAGE EXAMPLES -->
 ## Link Bones
