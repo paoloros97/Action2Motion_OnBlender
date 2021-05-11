@@ -6,7 +6,10 @@
 
   <h3 align="center">Action2Motion: Conditioned Generation of 3D Human Motions On Blender</h3>
 
-<p align="center"> <img src="images/gifmaker.gif" width="400"> </p>
+<p align="center"> <img src="images/gifmaker.gif" width="400"> 
+  <br>
+        <a href="https://cursos.blendtuts.es/products/masterclass-de-personajes-lowpoly/categories/4451937/posts/14949215">Character source</a>
+</p>
 </p>
 
 
@@ -27,10 +30,6 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#link-bones">Link Bones</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
@@ -52,20 +51,8 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
-### Built With
-
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
-
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
@@ -73,28 +60,20 @@ In order to install this Add-on, you need:
 
 * Administrator privileges
 * At least 3-4 Gbytes of space in your HD (<a href="https://pytorch.org/get-started/locally/">pytorch</a> weighs at least 3Gbyte)
-* <a href="https://www.blender.org/"> Blender </a>
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* <a href="https://www.blender.org/"> Blender </a> installed
 
 ### Installation
 
-1. Download the .zip file from this repository
+1. Download the .zip file from this repository. Please do not change the main folder name.
 
-3. Open Blender in administrator mode > Edit > Preferences > Add-ons > Install
+3. Open Blender in administrator mode > Edit > Preferences > Add-ons > Install. Browse the project zip file and load it.
    <p align="center"><img src="images/Install.png" alt="Logo" width="600"></p>
 
 3. Activate the checkbox. It will takes a few minutes to install the Add-on due the libraries size that the Neural Network uses (at least 3Gb)
    <p align="center"><img src="images/spunta.png" alt="Logo" width="550"></p>
   
-4. This is the panel that will appear
+4. This is the panel that will appear:
    <p align="center"><img src="images/panel.png" alt="Logo" width="300"></p>
-
-
 
 
 <!-- USAGE EXAMPLES -->
