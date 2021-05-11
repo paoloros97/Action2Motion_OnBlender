@@ -4,7 +4,7 @@
   <img src="images/logo.svg" alt="Logo" width="200">
 
 
-  <h3 align="center">Action2Motion: Conditioned Generation of 3D Human Motions On Blender</h3>
+  <h3 align="center">Action2Motion: Conditioned Generation of 3D Human Motions _On Blender</h3>
 
 <p align="center"> <img src="images/gifmaker.gif" width="400"> 
   <br>
