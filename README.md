@@ -97,7 +97,7 @@ In order to install this Add-on, you need:
 
 5. Choose a motion and click it. The neural network will generate the selected motion. 
 
-   <p align="center"><img src="images/movesk.png" alt="Logo" width="500"></p>
+  <p align="center"><img src="images/movesk.png" alt="Logo" width="500"></p>
    
 6. Push the _Play_ button to start the animation.
 
