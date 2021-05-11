@@ -74,6 +74,9 @@ def parent_skeleton():
     bpy.data.objects["Empty.022"].select_set(False)
     bpy.data.objects["Empty.023"].select_set(False)
 
+    scheletro = bpy.data.objects['Armature']
+    bpy.context.view_layer.objects.active = scheletro #Rende lo scheletro un oggetto attivo
+
     bpy.ops.object.parent_set(type='ARMATURE_AUTO') #Link dei bones con la mesh del character
 
 def init_skeleton():
