@@ -6,7 +6,10 @@
 
   <h3 align="center">Action2Motion: Conditioned Generation of 3D Human Motions On Blender</h3>
 
-<p align="center"> <img src="images/gifmaker.gif" width="400"> </p>
+<p align="center"> <img src="images/gifmaker.gif" width="400"> 
+  <br>
+        <a href="https://cursos.blendtuts.es/products/masterclass-de-personajes-lowpoly/categories/4451937/posts/14949215">Character source</a>
+</p>
 </p>
 
 
