@@ -64,7 +64,7 @@ In order to install this Add-on, you need:
 
 ### Installation
 
-1. Download the .zip file from this repository. Please do not change the main folder name.
+1. Download this repository (.zip): _Code_ > _Download ZIP_. Please do not un-zip it. Please do not change the main folder name inside the compressed file.
 
 3. Open Blender in administrator mode > Edit > Preferences > Add-ons > Install. Browse the project zip file and load it.
    <p align="center"><img src="images/Install.png" alt="Logo" width="600"></p>
