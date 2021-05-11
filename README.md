@@ -79,7 +79,6 @@ In order to install this Add-on, you need:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 1. Open Blender and empty the whole scene.
 
   <p align="center"><img src="images/empty.png" alt="Logo" width="500"></p>
