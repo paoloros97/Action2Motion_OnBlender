@@ -45,7 +45,7 @@ The animation of a characters is always very complex task, but using neural netw
 
 We have created an add-on for Blender that integrates the <a href="https://github.com/EricGuo5513/action-to-motion">Action2Motion</a> neural network.
 
-From its output we make the bones of the character move. Then, being linked with the character's mesh, we make it move. 
+From its output we make the bones of the character move. Then, being linked with the character's mesh, we make it move as well. 
 
 📺 <a href="https://www.youtube.com/watch?v=qe0SkQ_q8gU">Video DEMO - Action2Motion_OnBlender (Youtube)</a>
 
