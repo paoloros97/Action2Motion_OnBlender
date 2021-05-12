@@ -67,7 +67,7 @@ In order to install this Add-on, you need:
 3. Open Blender in administrator mode > Edit > Preferences > Add-ons > Install. Browse the project zip file and load it.
    <p align="center"><img src="images/Install.png" alt="Logo" width="600"></p>
 
-3. Activate the checkbox. It will takes a few minutes to install the Add-on due the libraries size that the Neural Network uses (at least 3Gb)
+3. Activate the checkbox. The first time it will takes a few minutes to install the Add-on due the libraries size that the Neural Network uses (at least 3Gb)
    <p align="center"><img src="images/spunta.png" alt="Logo" width="550"></p>
   
 4. This is the panel that will appear:
