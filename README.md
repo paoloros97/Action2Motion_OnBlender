@@ -47,6 +47,7 @@ We have created an add-on for Blender that integrates the <a href="https://githu
 
 From its output we make the bones of the character move. Then, being linked with the character's mesh, we make it move. 
 
+📺 <a href="https://www.youtube.com/watch?v=qe0SkQ_q8gU">Video DEMO - Action2Motion_OnBlender (Youtube)</a>
 
 <!-- GETTING STARTED -->
 ## Getting Started
