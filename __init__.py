@@ -17,8 +17,7 @@ import os
 try: #Prova ad importare la libreria, altrimenti la installa
     import pandas as pd
 except ImportError:
-    #import subprocess
-    #import bpy 
+ 
     try:
         import ensurepip
         ensurepip.bootstrap()
@@ -32,7 +31,6 @@ except ImportError:
 
 
 try:
-    #import librosa
     import torch
 
 except ImportError:
@@ -68,13 +66,13 @@ except ImportError:
             
             if float(out_dict['CUDA Version']) < 11.0 and float(out_dict['CUDA Version']) >= 10.0:
                 print('Installazione PyTorch con CUDA v10')
-                #subprocess.check_call([pybin,'-m','pip','install','torch==1.8.1+cu102', '-f', 'https://download.pytorch.org/whl/torch_stable.html'])
+                subprocess.check_call([pybin,'-m','pip','install','torch==1.8.1+cu102', '-f', 'https://download.pytorch.org/whl/torch_stable.html'])
             elif float(out_dict['CUDA Version']) >= 11.0:
                 print('Installazione PyTorch con CUDA v11')
-                #subprocess.check_call([pybin,'-m','pip','install','torch==1.8.1+cu111', '-f', 'https://download.pytorch.org/whl/torch_stable.html'])
+                subprocess.check_call([pybin,'-m','pip','install','torch==1.8.1+cu111', '-f', 'https://download.pytorch.org/whl/torch_stable.html'])
             else:
                 print('Installazione PyTorch CPU (CUDA presente ma con versione non disponibile)')
-                #subprocess.check_call([pybin,'-m','pip','install','torch==1.8.1+cpu', '-f', 'https://download.pytorch.org/whl/torch_stable.html'])
+                subprocess.check_call([pybin,'-m','pip','install','torch==1.8.1+cpu', '-f', 'https://download.pytorch.org/whl/torch_stable.html'])
 
             import torch
         else:
@@ -89,15 +87,14 @@ except ImportError:
             pass    
         pybin = bpy.app.binary_path_python
         print('Installazione PyTorch CPU')
-        #subprocess.check_call([pybin,'-m','pip','install','torch==1.8.1+cpu', '-f', 'https://download.pytorch.org/whl/torch_stable.html'])
+        subprocess.check_call([pybin,'-m','pip','install','torch==1.8.1+cpu', '-f', 'https://download.pytorch.org/whl/torch_stable.html'])
         import torch
 
 
 try:
     import scipy.io as sio
 except ImportError:
-    #import subprocess
-    #import bpy 
+
     try:
         import ensurepip
         ensurepip.bootstrap()
@@ -111,8 +108,7 @@ except ImportError:
 try:
     import joblib
 except ImportError:
-    #import subprocess
-    #import bpy 
+
     try:
         import ensurepip
         ensurepip.bootstrap()
