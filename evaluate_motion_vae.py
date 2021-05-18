@@ -14,8 +14,8 @@ def character_matrix(animation_n):
 	parser = TestOptions()
 	opt = parser.parse()
 
-	device = torch.device("cuda:" + str(opt.gpu_id) if opt.gpu_id else "cpu")
-	#device = torch.device("cuda:0")
+	#device = torch.device("cuda:" + str(opt.gpu_id) if opt.gpu_id else "cpu")
+	device = torch.device("cuda:" + str(opt.gpu_id) if torch.cuda.is_available() else "cpu")
 
 	opt.save_root = os.path.join(opt.checkpoints_dir, opt.dataset_type, opt.name)
 	opt.model_path = os.path.join(opt.save_root, 'model')
@@ -34,7 +34,8 @@ def character_matrix(animation_n):
 	opt.input_size = input_size + opt.dim_category
 	opt.output_size = input_size
 
-	model = torch.load(model_file_path, map_location='cuda:0')
+	model = torch.load(model_file_path, map_location="cuda:" + str(opt.gpu_id) if torch.cuda.is_available() else "cpu")
+
 	
 	prior_net = GaussianGRU(opt.input_size, opt.dim_z, opt.hidden_size,
 										opt.prior_hidden_layers, opt.num_samples, device)
