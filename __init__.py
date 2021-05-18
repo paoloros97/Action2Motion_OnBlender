@@ -14,7 +14,7 @@ import bpy
 from bpy.utils import register_class, unregister_class
 import os
 
-try: #Prova ad importare la libreria, altrimenti la installa
+try:  #Prova ad importare la libreria, altrimenti la installa
     import pandas as pd
 except ImportError:
  
