@@ -14,7 +14,6 @@ def character_matrix(animation_n):
 	parser = TestOptions()
 	opt = parser.parse()
 
-	#device = torch.device("cuda:" + str(opt.gpu_id) if opt.gpu_id else "cpu")
 	device = torch.device("cuda:" + str(opt.gpu_id) if torch.cuda.is_available() else "cpu")
 
 	opt.save_root = os.path.join(opt.checkpoints_dir, opt.dataset_type, opt.name)
