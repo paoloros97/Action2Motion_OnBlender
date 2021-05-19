@@ -56,9 +56,12 @@ From its output we make the bones of the character move. Then, being linked with
 
 In order to install this Add-on, you need:
 
-* Administrator privileges
-* At least 3-4 Gbytes of space in your HD (<a href="https://pytorch.org/get-started/locally/">pytorch</a> weighs at least 3Gbyte)
-* <a href="https://www.blender.org/"> Blender </a> installed
+* Administrator privileges (first installation only)
+* At least 3-4 Gbytes of space in your HD (<a href="https://pytorch.org/get-started/locally/">pytorch</a> with CUDA weighs at least 3Gbyte)
+* <a href="https://www.blender.org/">Blender</a> installed
+
+This Add-on has been tested on Windows systems only.
+It can be used both on CPU only devices, and with dedicated GPU (Nvidia CUDA) ones.
 
 ### Installation
 
