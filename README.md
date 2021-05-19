@@ -61,6 +61,7 @@ In order to install this Add-on, you need:
 * <a href="https://www.blender.org/">Blender</a> installed
 
 This Add-on has been tested on Windows systems only.
+
 It can be used both on CPU only devices, and with dedicated GPU (Nvidia CUDA) ones.
 
 ### Installation
