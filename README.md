@@ -56,7 +56,7 @@ From its output we make the bones of the character move. Then, being linked with
 
 In order to install this Add-on, you need:
 
-* Administrator privileges (first installation only)
+
 * At least 3-4 Gbytes of space in your HD (<a href="https://pytorch.org/get-started/locally/">pytorch</a> with CUDA weighs at least 3Gbyte)
 * <a href="https://www.blender.org/">Blender</a> installed
 
@@ -68,7 +68,7 @@ It can be used both on CPU only devices, and with dedicated GPU (Nvidia CUDA) on
 
 1. Download this repository (.zip): _Code_ > _Download ZIP_. Please do not un-zip it. Please do not change the main folder name inside the compressed file.
 
-3. Open Blender in administrator mode > Edit > Preferences > Add-ons > Install. Browse the project zip file and load it.
+3. Open Blender and go to: Edit > Preferences > Add-ons > Install. Browse the project zip file and load it.
    <p align="center"><img src="images/Install.png" alt="Logo" width="600"></p>
 
 3. Activate the checkbox. The first time it will takes a few minutes to install the Add-on due the libraries size that the Neural Network uses (at least 3Gb)
