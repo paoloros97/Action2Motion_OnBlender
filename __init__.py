@@ -14,6 +14,13 @@ import bpy
 from bpy.utils import register_class, unregister_class
 import os
 
+pybin = bpy.app.binary_path_python
+pydir = subprocess.run([pybin,'-m','site','--user-site'], capture_output=True).stdout
+#print('stringa', pydir[:-2].decode('utf-8'))
+pydir_path = pydir[:-2].decode('utf-8')
+
+sys.path.append(pydir_path)
+
 try:  #Prova ad importare la libreria, altrimenti la installa
     import pandas as pd
 except ImportError:
@@ -25,7 +32,7 @@ except ImportError:
     except ImportError:
         pass    
     pybin = bpy.app.binary_path_python
-    subprocess.check_call([pybin,'-m','pip','install','pandas'])
+    subprocess.check_call([pybin,'-m','pip','install','pandas','--user'])
     import pandas as pd  
 
 
@@ -66,13 +73,13 @@ except ImportError:
             
             if float(out_dict['CUDA Version']) < 11.0 and float(out_dict['CUDA Version']) >= 10.0:
                 print('Installazione PyTorch con CUDA v10')
-                subprocess.check_call([pybin,'-m','pip','install','torch==1.8.1+cu102', '-f', 'https://download.pytorch.org/whl/torch_stable.html'])
+                subprocess.check_call([pybin,'-m','pip','install','torch==1.8.1+cu102', '-f', 'https://download.pytorch.org/whl/torch_stable.html','--user'])
             elif float(out_dict['CUDA Version']) >= 11.0:
                 print('Installazione PyTorch con CUDA v11')
-                subprocess.check_call([pybin,'-m','pip','install','torch==1.8.1+cu111', '-f', 'https://download.pytorch.org/whl/torch_stable.html'])
+                subprocess.check_call([pybin,'-m','pip','install','torch==1.8.1+cu111', '-f', 'https://download.pytorch.org/whl/torch_stable.html','--user'])
             else:
                 print('Installazione PyTorch CPU (CUDA presente ma con versione non disponibile)')
-                subprocess.check_call([pybin,'-m','pip','install','torch==1.8.1+cpu', '-f', 'https://download.pytorch.org/whl/torch_stable.html'])
+                subprocess.check_call([pybin,'-m','pip','install','torch==1.8.1+cpu', '-f', 'https://download.pytorch.org/whl/torch_stable.html','--user'])
 
             import torch
         else:
@@ -87,7 +94,7 @@ except ImportError:
             pass    
         pybin = bpy.app.binary_path_python
         print('Installazione PyTorch CPU')
-        subprocess.check_call([pybin,'-m','pip','install','torch==1.8.1+cpu', '-f', 'https://download.pytorch.org/whl/torch_stable.html'])
+        subprocess.check_call([pybin,'-m','pip','install','torch==1.8.1+cpu', '-f', 'https://download.pytorch.org/whl/torch_stable.html','--user'])
         import torch
 
 
@@ -102,7 +109,7 @@ except ImportError:
     except ImportError:
         pass    
     pybin = bpy.app.binary_path_python
-    subprocess.check_call([pybin,'-m','pip','install','scipy'])
+    subprocess.check_call([pybin,'-m','pip','install','scipy','--user'])
     import scipy.io as sio 
 
 try:
@@ -116,7 +123,7 @@ except ImportError:
     except ImportError:
         pass    
     pybin = bpy.app.binary_path_python
-    subprocess.check_call([pybin,'-m','pip','install','joblib'])
+    subprocess.check_call([pybin,'-m','pip','install','joblib', '--user'])
     import joblib
     
 
