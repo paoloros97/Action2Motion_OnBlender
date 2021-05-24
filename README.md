@@ -62,6 +62,8 @@ In order to install this Add-on, you need:
 
 This Add-on has been tested on Windows systems only.
 
+This Add-on has been tested on Blender version 2.92.0.
+
 It can be used both on CPU only devices, and with dedicated GPU (Nvidia CUDA) ones.
 
 ### Installation
