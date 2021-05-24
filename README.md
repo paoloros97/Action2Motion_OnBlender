@@ -73,7 +73,7 @@ It can be used both on CPU only devices, and with dedicated GPU (Nvidia CUDA) on
 3. Open Blender and go to: Edit > Preferences > Add-ons > Install. Browse the project zip file and load it.
    <p align="center"><img src="images/Install.png" alt="Logo" width="600"></p>
 
-3. Activate the checkbox. The first time it will takes a few minutes to install the Add-on due the libraries size that the Neural Network uses (at least 3Gb)
+3. Activate the checkbox. The first time it will takes a few minutes to install the Add-on due the libraries size that the Neural Network uses (at least 3Gb). Before activating the checkbox, if you want to monitor the installation process, please open the _System console_ from the tab _Window_ > _Toggle System Console_.
    <p align="center"><img src="images/spunta.png" alt="Logo" width="550"></p>
   
 4. This is the panel that will appear:
