@@ -70,7 +70,7 @@ It can be used both on CPU only devices, and with dedicated GPU (Nvidia CUDA) on
 
 1. Download this repository (.zip): _Code_ > _Download ZIP_. Please do not un-zip it. Please do not change the main folder name inside the compressed file.
 
-3. Open Blender and go to: Edit > Preferences > Add-ons > Install. Browse the project zip file and load it.
+3. Open Blender and go to: Edit > Preferences > Add-ons > Install. Browse the downloaded project zip file and load it.
    <p align="center"><img src="images/Install.png" alt="Logo" width="600"></p>
 
 3. Activate the checkbox. The first time it will takes a few minutes to install the Add-on due the libraries size that the Neural Network uses (at least 3Gb). Before activating the checkbox, if you want to monitor the installation process, please open the _System console_ from the tab _Window_ > _Toggle System Console_.
